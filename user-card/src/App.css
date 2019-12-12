@@ -1,0 +1,30 @@
+
+.App {
+  text-align: center;
+  background-image: url(../src/img/piping-man.jpg);
+  border: 40px dotted yellow;
+}
+.App h1 {
+  font-size: 400%;
+  color: yellow;
+}
+
+.userClass {
+  border: 10px double yellow;
+  width: 80%;
+  margin: 0% 2% 2% 10%;
+}
+
+.userClass img {
+  border-radius: 25%;
+}
+
+.userClass h2{
+font-size: 300%;
+color: yellow;
+}
+
+.userClass a{
+color: yellow;
+font-size: 200%;
+}
