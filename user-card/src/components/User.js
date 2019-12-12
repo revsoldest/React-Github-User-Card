@@ -20,7 +20,6 @@ class User extends Component{
             //  console.log(res.data.followers_url)
             this.setState({
                 user: res.data
-
             })
 
         })
@@ -29,7 +28,6 @@ class User extends Component{
         axios
         .get('https://api.github.com/users/revsoldest/followers')
         .then(res => {
-
             console.log(res.data)
             this.setState({
              followers: res.data
